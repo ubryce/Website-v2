@@ -197,3 +197,30 @@ nav #menu li a:hover {
     visibility: visible;
     opacity: 1;
 }
+
+@media(max-width: 768px) {
+    #toggle {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 6px;
+        margin-right: 4px;
+    }
+
+    nav #brand {
+        margin-left: 24px;
+    }
+
+    #menu a {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    #resize li span {
+        font-weight: bolder;
+    }
+
+    nav #menu {
+        display: none;
+    }
+}
+
