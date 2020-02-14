@@ -44,7 +44,7 @@ html, body {
         width: 0;
     }
     to {
-        width: 11.5em;
+        width: 11em;
     }
 }
 
@@ -54,7 +54,7 @@ html, body {
             width: 0;
         }
         to {
-            width: 17em;
+            width: 11em;
         }
     }
 }
@@ -221,6 +221,34 @@ nav #menu li a:hover {
 
     nav #menu {
         display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    #resize {
+        visibility: hidden !important;
+    }
+}
+
+/*-- display --*/
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: -2px;
+    line-height: 58px;
+}
+
+@media(max-width: 768px) {
+    .header h1 {
+        font-size: 26px;
     }
 }
 
