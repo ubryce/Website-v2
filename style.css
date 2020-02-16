@@ -321,3 +321,20 @@ h6 {
     right: 0;
     bottom: 0;
 }
+.project2 {
+    background: url() no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project2::after {
+    content: "moodroid.";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display: block;
+    top: 80%;
+    left: 90%;
+    right: 0;
+    bottom: 0;
+}
