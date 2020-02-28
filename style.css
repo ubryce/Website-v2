@@ -488,3 +488,17 @@ h6 {
 .image {
     background: url(MadeOnEarth.jpg) no-repeat 50% 70%;
 }
+
+/*--project--*/
+
+.prev, .next p {
+    color: grey;
+}
+
+.prev p {
+    text-align: left;
+}
+
+.next p {
+    text-align: right;
+}
